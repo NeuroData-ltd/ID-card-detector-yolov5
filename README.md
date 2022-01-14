@@ -35,11 +35,12 @@ then install requirements:
 pip install -r requirements.txt
 ```
 
-The trained Model best.pt you can find it here in the Drive Link:
+The trained Model id_card_detection.pt you can find it here in the [Drive Link](https://drive.google.com/file/d/1eYNV2pig0dO77F_52emdbaZjqRr0vyBM/view?usp=sharing):
 Download it and move it to the folder Model
 
 ## Test the Model
 
 ```
-python3 detect.py --source test_image.jpg --weights best.pt --save-crop
+python3 detect.py --source test_image.jpg --weights id_card_detection.pt --save-crop
 ```
+
