@@ -6,10 +6,17 @@ A Yolov5 Model that detects business cards / ID cards / credit cards.
 
 ## How to Run
 
-** requirements: **
+**requirements:** 
 
 - torch
 - yolov5
 - python3
+
+## Install libraries:
+
+
+```
+pip install torch
+```
 
 
