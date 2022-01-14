@@ -36,11 +36,18 @@ pip install -r requirements.txt
 ```
 
 The trained Model id_card_detection.pt you can find it here in the [Drive Link](https://drive.google.com/file/d/1eYNV2pig0dO77F_52emdbaZjqRr0vyBM/view?usp=sharing):
-Download it and move it to the folder Model
+Download it and move it to the folder  /yolov5/runs/train/exp1/
 
 ## Test the Model
 
 ```
-python3 detect.py --source test_image.jpg --weights id_card_detection.pt --save-crop
+python3 detect.py --source test_image.jpg --weights /yolov5/runs/train/exp1/id_card_detection.pt --save-crop
 ```
+the argument save crop: will save the cropped image after detecting the boxes
+
+## test on ID Card:
+
+## test on business card
+
+## test on credit card
 
