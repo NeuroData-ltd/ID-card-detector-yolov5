@@ -46,8 +46,8 @@ python3 detect.py --source test_image.jpg --weights /yolov5/runs/train/exp1/id_c
 the argument save crop: will save the cropped image after detecting the boxes
 
 ## test on ID Card:
-
+![alt text](http://url/to/img.png)
 ## test on business card
-
+![alt text](http://url/to/img.png)
 ## test on credit card
-
+![alt text](http://url/to/img.png)
